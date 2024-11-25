@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#navbar {
+    gap: 5px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(226, 59, 59);
+        align-items: center;
+        justify-content:space-around;
+        img{
+            height: 90px;
+            margin-right: 20px;
+        
+        
+}
+    
+
+  nav {
+    width: 100%;
+        
+    ul {
+      display: flex;
+      gap: 50px;
+      margin-right: 20px;
+
+      li {
+           list-style-type: none;
+           
+
+           a{
+            color: white;
+            font-size: 15px;
+              text-decoration: none;
+              text-transform: uppercase;
+              
+            }
+        a:hover{
+            color: pink;
+            border: black solid 2px;
+            padding: 2px;
+
+        }
+         }
+    }
+  }
+}
+.hero{
+    display: flex;
+    overflow-x: auto;
+img{
+    width: 100%;
+}
+}
