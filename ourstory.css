@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.story h1 {
+  color: white;
+  text-align: center;
+  background: url(https://www.topntown.com/images/icecream-base-1.png);
+  font-size: 50px;
+  padding: 50px;
+}
+.story h3 {
+  padding-left: 40px;
+}
+.story h3 span {
+  font-size: 50px;
+}
+.story p {
+  padding-left: 50px;
+  font-size: 20px;
+}
+.story .company img {
+  height: 50px;
+  width: 50px;
+  padding-right: 60px;
+}/*# sourceMappingURL=ourstory.css.map */
