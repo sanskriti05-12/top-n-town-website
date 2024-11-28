@@ -11,18 +11,39 @@
   font-size: 50px;
   padding: 50px;
 }
+.story h2 {
+  font-size: 40px;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+.story .image-main-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+}
 .story h3 {
   padding-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .story h3 span {
   font-size: 50px;
 }
 .story p {
   padding-left: 50px;
-  font-size: 20px;
+  width: 60vw;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  color: green;
 }
 .story .company img {
   height: 50px;
   width: 50px;
   padding-right: 60px;
+}
+.story .company img .detailed {
+  width: 500px;
+  color: red;
 }/*# sourceMappingURL=ourstory.css.map */

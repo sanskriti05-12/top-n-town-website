@@ -4,49 +4,58 @@
   box-sizing: border-box;
 }
 
-#navbar {
-  gap: 5px;
-  display: flex;
-  width: 100%;
-  background-color: rgb(226, 59, 59);
-  align-items: center;
-  justify-content: space-around;
-}
-#navbar img {
-  height: 90px;
-  margin-right: 20px;
-}
-#navbar nav {
-  width: 100%;
-}
-#navbar nav ul {
-  display: flex;
-  gap: 50px;
-  margin-right: 20px;
-}
-#navbar nav ul li {
-  list-style-type: none;
-}
-#navbar nav ul li a {
-  color: white;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-#navbar nav ul li a:hover {
-  color: pink;
-  border: black solid 2px;
-  padding: 2px;
+body {
+  overflow-x: hidden;
 }
 
-.hero {
-  display: flex;
-  overflow-x: auto;
-}
-.hero img {
-  width: 100%;
-}
-
-.main h1 {
+h1 {
   text-align: center;
+  background: url(https://www.topntown.com/images/icecream-base-1.png);
+  color: white;
+  font-size: 50px;
+  padding: 50px;
+  height: 170px;
+}
+
+#main img {
+  height: 30%;
+  width: 30%;
+}
+
+#main img:hover {
+  color: lightblue;
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.ending {
+  width: 100vw;
+  padding: 10px 20px;
+}
+.ending .social-div {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ending .social-div .social-media-icon1 {
+  width: 20vw;
+  height: 100px;
+  background-color: green;
+}
+.ending .social-div .social-media-icon1 {
+  width: 20vw;
+  height: 100px;
+  background-color: rgb(180, 64, 83);
+}
+.ending .social-div .social-media-icon1 {
+  width: 20vw;
+  height: 100px;
+  background-color: aqua;
+}
+.ending .social-div .social-media-icon1 {
+  width: 20vw;
+  height: 100px;
+  background-color: rgb(236, 136, 136);
 }/*# sourceMappingURL=products.css.map */

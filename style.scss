@@ -4,53 +4,121 @@
   box-sizing: border-box;
 }
 #navbar {
-    gap: 5px;
+  gap: 5px;
   display: flex;
   width: 100%;
-  background-color: rgb(226, 59, 59);
-        align-items: center;
-        justify-content:space-around;
-        img{
-            height: 90px;
-            margin-right: 20px;
-        
-        
-}
-    
+  height: 100px;
+  background-color: rgb(204, 236, 87);
+  align-items: center;
+  justify-content: space-around;
+  img {
+    height: 100px;
+    margin-right: 20px;
+  }
 
   nav {
     width: 100%;
-        
+
     ul {
       display: flex;
       gap: 50px;
       margin-right: 20px;
 
       li {
-           list-style-type: none;
-           
+        list-style-type: none;
 
-           a{
-            color: white;
-            font-size: 15px;
-              text-decoration: none;
-              text-transform: uppercase;
-              
-            }
-        a:hover{
-            color: pink;
-            border: black solid 2px;
-            padding: 2px;
-
+        a {
+          color: white;
+          font-size: 20px;
+          text-decoration: none;
+          text-transform: uppercase;
         }
-         }
+        a:hover {
+          color:black;
+          border: black solid 2px;
+          padding: 2px;
+        }
+      }
     }
   }
 }
-.hero{
-    display: flex;
-    overflow-x: auto;
-img{
+.hero {
+  display: flex;
+  overflow-x: auto;
+  img {
     width: 100%;
+    height: 100vh;
+  }
 }
+#main {
+  h1 {
+
+    font-size: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    margin-top: 30px;
+  }
+  p {
+    color: gray;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .brand1-p-h2 {
+    display: flex;
+    gap: 5px;
+    margin-left: 200px;
+
+    span {
+      font-size: 40px;
+      color: rgb(134, 134, 134);
+      border-bottom: 8px solid green;
+    }
+
+    h2 {
+      font-size: 40px;
+      color: brown;
+      text-transform: uppercase;
+    }
+  }
+}
+#end {
+  background: url(https://www.topntown.com/images/icecream-base-1.png);
+  padding: 30px;
+  .parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .child1 {
+      width: 350px;
+      height: 330px;
+      padding: 10px;
+      background-color: #00000000;
+      border: 2px solid rgb(253, 253, 253);
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .child {
+      h3 {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 30px;
+        color: white;
+        width: 600px;
+      }
+    }
+  }
 }

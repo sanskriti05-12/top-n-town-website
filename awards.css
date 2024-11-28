@@ -1,0 +1,23 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.awards h1 {
+  color: white;
+  text-align: center;
+  background: url(https://www.topntown.com/images/icecream-base-1.png);
+  font-size: 50px;
+  padding: 50px;
+}
+.awards .discription h2 {
+  color: grey;
+}
+.awards .discription h2 span {
+  color: brown;
+}
+.awards .discription h3 {
+  color: brown;
+  font-size: 50px;
+}/*# sourceMappingURL=awards.css.map */

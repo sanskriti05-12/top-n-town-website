@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.locate h1 {
+  color: white;
+  text-align: center;
+  background: url(https://www.topntown.com/images/icecream-base-1.png);
+  font-size: 50px;
+  padding: 50px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  padding: 50px;
+  margin: 10px;
+}
+.input input {
+  padding: 20px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px 140px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.input button {
+  padding: 30px 60px;
+  background-color: brown;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 500;
+  color: #fff;
+}
+.input button:hover {
+  background-color: black;
+  color: #fff;
+}/*# sourceMappingURL=locate.css.map */
