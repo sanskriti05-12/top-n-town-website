@@ -4,6 +4,42 @@
   box-sizing: border-box;
 }
 
+#navbar {
+  gap: 5px;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(204, 236, 87);
+  align-items: center;
+  justify-content: space-around;
+}
+#navbar img {
+  height: 100px;
+  margin-right: 20px;
+}
+#navbar nav {
+  width: 100%;
+}
+#navbar nav ul {
+  display: flex;
+  gap: 50px;
+  margin-right: 20px;
+}
+#navbar nav ul li {
+  list-style-type: none;
+}
+#navbar nav ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#navbar nav ul li a:hover {
+  color: black;
+  border: black solid 2px;
+  padding: 2px;
+}
+
 .story h1 {
   color: white;
   text-align: center;
@@ -46,4 +82,36 @@
 .story .company img .detailed {
   width: 500px;
   color: red;
+}
+
+#end {
+  background: url(https://www.topntown.com/images/icecream-base-1.png);
+  padding: 30px;
+}
+#end .parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#end .parent .child1 {
+  width: 350px;
+  height: 330px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgb(253, 253, 253);
+  margin-right: 20px;
+}
+#end .parent .child1 img {
+  width: 80%;
+}
+#end .parent .child h3 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+#end .parent .child p {
+  font-size: 30px;
+  color: white;
+  width: 600px;
+  margin-right: 10px;
 }/*# sourceMappingURL=ourstory.css.map */
